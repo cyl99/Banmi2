@@ -5,6 +5,7 @@ import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.PopupMenu;
 
 import com.example.youfeadaway.banmi.R;
 import com.example.youfeadaway.banmi.utils.SystemUtil;
@@ -113,6 +114,7 @@ public class PreviewIndicator extends LinearLayout {
                setSelectedState(imageView);
             } else {
                 setNomalState(imageView);
+
             }
         }
     }
